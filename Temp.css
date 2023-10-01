@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.center-input {
+  width: 80%; /* Adjust the width as desired */
+  margin:  auto; /* Center horizontally */
+  display: block; /* Ensures the input is displayed as a block element */
+}
+
+
+button:hover {
+  background-color: #c400c8;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #fffefe;
+}
+
+#thermometer {
+  float: right;
+}
+
+#highLow {
+  float: right;
+  margin-top: 20px;
+}
+
+.side-image {
+  float: right; 
+  margin: 20px; 
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('data:image/jpeg;base64,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');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff; /* Add white text color for better visibility */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://previews.123rf.com/images/julialemba/julialemba1805/julialemba180500042/102515911-seamless-vector-pattern-of-meteorology-thermometers-on-dark-background-measuring-hot-and-cold.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 10;
+  padding: 0;
+  color: #2d2a2a; 
+}
+/* Adjust the margin-bottom or padding to add gaps between elements */
+
+/* Adjust the margin or padding to add gaps between elements */
+
+input[type="number"].rounded-input {
+  width: 94%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  padding: 10px; /* Adjust padding to create spacing between the input and select */
+  margin-bottom: 20px; /* Add margin-bottom to create space between input and select */
+}
+
+select.rounded-select {
+  width: 99.4%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  padding: 10px; /* Adjust padding to create spacing between the input and select */
+  margin-bottom: 20px; /* Add margin-bottom to create space between select and button */
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px; /* Add margin-bottom to create space between button and other elements */
+}
+
+button:hover {
+  background-color: #fe1cd5;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#thermometer {
+  float: right;
+}
+
+#highLow {
+  float: right;
+  margin-top: 20px;
+}
